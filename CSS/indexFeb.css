@@ -86,7 +86,6 @@ table {
 
 .font-Abel{
 	font-family: 'Abel', sans-serif;
-	/* font-style: italic; */
 	font-weight: bold;
 	font-size: .4vh;
 	
@@ -295,6 +294,8 @@ header {
 
 /*FIN de aplicacion de CARDS */
 
+/*INICIO de dimensiones de mapas */
+
 .map-responsive{
 
 	overflow:hidden;
@@ -314,6 +315,7 @@ header {
 
 }
 
+/*FIN de dimensiones de mapas */
 
 .footer-bakcground{
 
@@ -324,17 +326,6 @@ header {
 
 /* Aplicacion de NAVBAR */
 
-
-/* .nav-enlace{
-	justify-content: space-between ;
-	margin-top: 0px;
-	background-color: var(--primary);
-	margin-bottom: 0px;
-	display: inline-block;
-	font-size: 3rem;
-	align-items: center;
-	
-} */
 
 .navbar {
 	justify-content: space-between;
@@ -406,3 +397,58 @@ nav {
 }
 
 /* Fin de aplicacion de NAVBAR */
+
+
+
+.container-name {
+	margin-left: 30px;
+	margin-top: 60px;
+  }
+  
+  .boton_header {
+	border-radius: 4px;
+	background: var(--third);
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 22px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.4s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .boton_header span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.4s;
+  }
+  
+  .boton_header span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .boton_header:hover span {
+	padding-right: 25px;
+  }
+  
+  .boton_header:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+
+  .styled-table { border-collapse: collapse; align-content: center; text-align: center; margin: 25px auto; font-size: 1rem; font-family:sans-serif, 'Arial Narrow Bold', sans-serif ; min-width: 200px; box-shadow: 0 0 1px var(--fourth); }
+
+  .styled-table th, .styled-table td { padding: 12px 2px; }
+
+  .styled-table tbody tr { border-bottom: 1px solid #dddddd; } .styled-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; } .styled-table tbody tr:last-of-type { border-bottom: 2px solid #636968; }
+  
+  
